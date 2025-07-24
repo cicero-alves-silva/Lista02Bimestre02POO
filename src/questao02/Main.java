@@ -7,17 +7,17 @@ public class Main {
         Carro c3 = new Carro("Fusca", "Azul");
 
         System.out.println("CARRO 1");
-        System.out.println("COR: " + c1.cor);
-        System.out.println("MODELO: " + c1.modelo);
+        System.out.println("COR: " + c1.getCor());
+        System.out.println("MODELO: " + c1.getModelo());
 
         System.out.println("\nCARRO 2");
-        System.out.println("COR: " + c2.cor);
-        System.out.println("MODELO: " + c2.modelo);
+        System.out.println("COR: " + c2.getCor());
+        System.out.println("MODELO: " + c2.getModelo());
 
         System.out.println("\nCARRO 3");
-        System.out.println("COR: " + c3.cor);
-        System.out.println("MODELO: " + c3.modelo);
+        System.out.println("COR: " + c3.getCor());
+        System.out.println("MODELO: " + c3.getModelo());
 
-        System.out.println("\n\nTOTAL DE CARROS: " + Carro.retornaTotalDeCarros());
+        System.out.println("\n\nTOTAL DE CARROS: " + Carro.getTotalDeCarros());
     }
 }
